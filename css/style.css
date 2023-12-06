@@ -21,8 +21,9 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     background-color: #31304D;
-    position: relative;
 }
 
 nav ul {
@@ -112,11 +113,29 @@ aside.right-bar {
     padding-left: 20px;
     font-weight: 500;
 }
+
+.search-section {
+    margin-bottom: 20px;
+}
+
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    flex: 7;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: #F0ECE5;
+    width: 100%;
+}
+
 /* BODY END */
 
 
 /* FOOTER START */ 
-
 /* footer {
    
 } */
@@ -129,9 +148,14 @@ aside.right-bar {
 
 .footer-logo {
     flex: 1;
-    font-size: 1.5em;
-    color: #F0ECE5;
     text-align: center;
+}
+
+.footer-logo a {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #F0ECE5;
+    text-decoration: none;
 }
 
 .footer-links {
