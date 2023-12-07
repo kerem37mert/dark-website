@@ -357,6 +357,49 @@ section.contents {
 /*CONTACT END */
 
 
+/* ABOUT START */
+.about {
+    background-color: #B6BBC4;
+    color: #161A30;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 1.5em;
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+/* ABOUT END */
+
+
+/* Contents Start */
+.all-contents .content-item {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #B6BBC4;
+}
+
+.content-item a {
+    text-decoration: none;
+    color: #161A30;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.content-item a:hover {
+    text-decoration: underline;
+}
+
+.content-item p {
+    margin-top: 10px;
+}
+
+.content-item
+/* Contents END */
+
 
 /** For Mobile Devices **/
 @media(max-width:768px) {
