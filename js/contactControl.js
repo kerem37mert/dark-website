@@ -22,7 +22,7 @@ const errorControl = (error, message) => {
 
 const emptyControl = () => {
     let error = 0;
-    let errorMessage = "* Lütfen boş alan bırakmayınız."
+    let errorMessage = "* Lütfen boş alan bırakmayınız.";
 
     formItem.forEach(item => {
         if(item.value == "") {
