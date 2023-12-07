@@ -192,6 +192,25 @@ section.contents {
     margin-top: 10px;
 }
 
+.more-content {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.more-content a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #F0ECE5;
+    color: #161A30;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.more-content a:hover {
+    background-color: #31304D;
+    color: #F0ECE5;
+    transition: 0.2s
+}
 
 .pagination {
     margin-top: 20px;
